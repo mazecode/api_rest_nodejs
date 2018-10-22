@@ -1,0 +1,51 @@
+{
+  "_from": "api_restdemo",
+  "_id": "api_restdemo@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-f5Ws0EYBoSYkimP695mIvYN0LeVudHzYNEWtX/p8nQKiYfwARdulZziJuny//zqmD+HVyMo38tm3W58T3VwDoQ==",
+  "_location": "/api_restdemo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "api_restdemo",
+    "name": "api_restdemo",
+    "escapedName": "api_restdemo",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/api_restdemo/-/api_restdemo-1.0.1.tgz",
+  "_shasum": "65b99c546056d2023eaff0cbaaacbfab231ad3ac",
+  "_spec": "api_restdemo",
+  "_where": "C:\\Users\\usuario\\Downloads\\test",
+  "bundleDependencies": false,
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "debug": "^2.6.9",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "morgan": "~1.8.1",
+    "mysql": "^2.16.0"
+  },
+  "deprecated": false,
+  "description": "1. Install\r 2. Configuration\r 3. Starting\r 4. Testing",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "node-fetch": "^2.2.0",
+    "supertest": "^3.3.0"
+  },
+  "name": "api_restdemo",
+  "private": false,
+  "scripts": {
+    "production": "SET NODE_ENV=production && npm start",
+    "start": "node ./bin/www",
+    "test": "mocha ./test/apiTest.js"
+  },
+  "version": "1.0.1"
+}
